@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores.API", "Chores.API\Chores.API.csproj", "{F63D1DB7-2FD2-465D-A37D-957B70138059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chores.Data", "Chores.Data\Chores.Data.csproj", "{CFA33079-56AC-4B0E-8C17-D65D0D198121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F63D1DB7-2FD2-465D-A37D-957B70138059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63D1DB7-2FD2-465D-A37D-957B70138059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63D1DB7-2FD2-465D-A37D-957B70138059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63D1DB7-2FD2-465D-A37D-957B70138059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA33079-56AC-4B0E-8C17-D65D0D198121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA33079-56AC-4B0E-8C17-D65D0D198121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA33079-56AC-4B0E-8C17-D65D0D198121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA33079-56AC-4B0E-8C17-D65D0D198121}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DB128E5-E984-4258-941A-A0D05243FED2}
+	EndGlobalSection
+EndGlobal
