@@ -1,19 +1,20 @@
-﻿using System;
+﻿using ChoresAPI.Models;
+
 namespace Chores.API.Services.ChoresService
 {
-	public interface IChoresService
+    public interface IChoresService
 	{
-		Task<List<HouseChore>> GetAllChores();
+		Task<List<HouseChoreViewModel>> GetAllChores();
 
-        Task<HouseChore?> GetSingleChore(int id);
+        Task<HouseChoreViewModel?> GetSingleChore(int id);
 
-        Task<List<HouseChore>> GetChoresByName(string? name);
+        Task<List<HouseChoreViewModel>> GetChoresByName(string? name);
 
-        Task<List<HouseChore>> AddChore(HouseChore chore);
+        Task<List<HouseChoreViewModel>> AddChore(HouseChoreViewModel chore);
 
-		Task<List<HouseChore>?> UpdateChore(int id, HouseChore request);
+		Task<List<HouseChoreViewModel>?> UpdateChore(int id, HouseChoreViewModel request);
 
-        Task<List<HouseChore>?> DeleteChore(int id);
+        Task<List<HouseChoreViewModel>?> DeleteChore(int id);
     }
 }
 
