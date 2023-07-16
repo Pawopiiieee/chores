@@ -1,6 +1,5 @@
-﻿global using ChoresAPI.Models;
 using Chores.API.Services.ChoresService;
-using Chores.API.Data;
+using Chores.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
