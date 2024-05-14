@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Chores.API.Services.ChoresService;
 using ChoresAPI.Models;
 using Microsoft.AspNetCore.Mvc;

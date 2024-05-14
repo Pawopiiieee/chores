@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 
 import { Task } from '../Task'; //interface
-import { TASKS } from '../tasks' //task
-import { Observable, of } from 'rxjs';
+//import { TASKS } from '../tasks' //task
+import { Observable } from 'rxjs';
 import {HttpClient, HttpHeaders} from '@angular/common/http'; //API, HTTP client
 
 @Injectable({
